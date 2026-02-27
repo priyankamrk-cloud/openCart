@@ -1,0 +1,14 @@
+2026-02-28 00:10:07 INFO  LoginTest:21 - Starting the Test
+2026-02-28 00:10:15 INFO  AccountRegistrationTest:14 - Open the cart to Register
+2026-02-28 00:10:15 INFO  AccountRegistrationTest:18 - Selected the My Account
+2026-02-28 00:10:16 INFO  AccountRegistrationTest:21 - selected to Register
+2026-02-28 00:10:16 INFO  AccountRegistrationTest:22 - Providing customer detailsr
+2026-02-28 00:10:18 INFO  AccountRegistrationTest:36 - validating expected msg
+2026-02-28 00:10:18 INFO  AccountRegistrationTest:65 - Testcase Completed
+2026-02-28 00:13:55 INFO  LoginTest:21 - Starting the Test
+2026-02-28 00:13:59 INFO  AccountRegistrationTest:14 - Open the cart to Register
+2026-02-28 00:14:00 INFO  AccountRegistrationTest:18 - Selected the My Account
+2026-02-28 00:14:00 INFO  AccountRegistrationTest:21 - selected to Register
+2026-02-28 00:14:00 INFO  AccountRegistrationTest:22 - Providing customer detailsr
+2026-02-28 00:14:02 INFO  AccountRegistrationTest:36 - validating expected msg
+2026-02-28 00:14:02 INFO  AccountRegistrationTest:65 - Testcase Completed

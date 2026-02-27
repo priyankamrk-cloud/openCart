@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="5" failed="5" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-27T22:48:12 IST" name="Suite" finished-at="2026-02-27T22:54:09 IST" duration-ms="356063">
+    <groups>
+      <group name="Master">
+        <method signature="AccountRegistrationTest.Accountvalid()[pri:0, instance:testCase.AccountRegistrationTest@5bda8e08]" name="Accountvalid" class="testCase.AccountRegistrationTest"/>
+        <method signature="LoginTest.accountLogintest()[pri:0, instance:testCase.LoginTest@3eb25e1a]" name="accountLogintest" class="testCase.LoginTest"/>
+        <method signature="AccountRegistrationTest.Accountvalid()[pri:0, instance:testCase.AccountRegistrationTest@4009e306]" name="Accountvalid" class="testCase.AccountRegistrationTest"/>
+        <method signature="LoginDataTest.accountLogintest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginDataTest@3d34d211]" name="accountLogintest" class="testCase.LoginDataTest"/>
+        <method signature="LoginTest.accountLogintest()[pri:0, instance:testCase.LoginTest@7dc0f706]" name="accountLogintest" class="testCase.LoginTest"/>
+      </group> <!-- Master -->
+      <group name="DataDriven">
+        <method signature="LoginDataTest.accountLogintest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginDataTest@3d34d211]" name="accountLogintest" class="testCase.LoginDataTest"/>
+      </group> <!-- DataDriven -->
+    </groups>
+    <test started-at="2026-02-27T22:48:12 IST" name="Linux-Chrome" finished-at="2026-02-27T22:48:28 IST" duration-ms="15676">
+      <class name="testCase.AccountRegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCase.AccountRegistrationTest@5bda8e08]" started-at="2026-02-27T22:48:20 IST" name="setup" finished-at="2026-02-27T22:48:25 IST" duration-ms="4532" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Accountvalid()[pri:0, instance:testCase.AccountRegistrationTest@5bda8e08]" started-at="2026-02-27T22:48:25 IST" name="Accountvalid" finished-at="2026-02-27T22:48:28 IST" duration-ms="3446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Accountvalid -->
+        <test-method is-config="true" signature="setout()[pri:0, instance:testCase.AccountRegistrationTest@5bda8e08]" started-at="2026-02-27T22:48:28 IST" name="setout" finished-at="2026-02-27T22:48:28 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setout -->
+      </class> <!-- testCase.AccountRegistrationTest -->
+      <class name="testCase.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginTest@3eb25e1a]" started-at="2026-02-27T22:48:13 IST" name="setup" finished-at="2026-02-27T22:48:17 IST" duration-ms="4630" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="accountLogintest()[pri:0, instance:testCase.LoginTest@3eb25e1a]" started-at="2026-02-27T22:48:17 IST" name="accountLogintest" finished-at="2026-02-27T22:48:20 IST" duration-ms="2623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountLogintest -->
+        <test-method is-config="true" signature="setout()[pri:0, instance:testCase.LoginTest@3eb25e1a]" started-at="2026-02-27T22:48:20 IST" name="setout" finished-at="2026-02-27T22:48:20 IST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setout -->
+      </class> <!-- testCase.LoginTest -->
+    </test> <!-- Linux-Chrome -->
+    <test started-at="2026-02-27T22:48:29 IST" name="Linux-FireFox" finished-at="2026-02-27T22:54:09 IST" duration-ms="339262">
+      <class name="testCase.AccountRegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCase.AccountRegistrationTest@4009e306]" started-at="2026-02-27T22:54:00 IST" name="setup" finished-at="2026-02-27T22:54:04 IST" duration-ms="4299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Accountvalid()[pri:0, instance:testCase.AccountRegistrationTest@4009e306]" started-at="2026-02-27T22:54:04 IST" name="Accountvalid" finished-at="2026-02-27T22:54:07 IST" duration-ms="2881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Accountvalid -->
+        <test-method is-config="true" signature="setout()[pri:0, instance:testCase.AccountRegistrationTest@4009e306]" started-at="2026-02-27T22:54:07 IST" name="setout" finished-at="2026-02-27T22:54:09 IST" duration-ms="1190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setout -->
+      </class> <!-- testCase.AccountRegistrationTest -->
+      <class name="testCase.LoginDataTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginDataTest@3d34d211]" started-at="2026-02-27T22:48:29 IST" name="setup" finished-at="2026-02-27T22:49:14 IST" duration-ms="44658" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="accountLogintest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginDataTest@3d34d211]" started-at="2026-02-27T22:49:15 IST" name="accountLogintest" data-provider="dp" finished-at="2026-02-27T22:49:17 IST" duration-ms="2023" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pavanoltraining@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountLogintest -->
+        <test-method signature="accountLogintest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginDataTest@3d34d211]" started-at="2026-02-27T22:49:17 IST" name="accountLogintest" data-provider="dp" finished-at="2026-02-27T22:49:28 IST" duration-ms="11728" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lakshmi@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Laxmi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Expected error message for invalid login expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Expected error message for invalid login expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at testCase.LoginDataTest.accountLogintest(LoginDataTest.java:46)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountLogintest -->
+        <test-method signature="accountLogintest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginDataTest@3d34d211]" started-at="2026-02-27T22:49:29 IST" name="accountLogintest" data-provider="dp" finished-at="2026-02-27T22:50:32 IST" duration-ms="63625" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[laksh@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lakshmi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[An exception occurred: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.linkText: Login' (tried for 50 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: An exception occurred: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.linkText: Login' (tried for 50 second(s) with 500 milliseconds interval)
+at org.testng.Assert.fail(Assert.java:111)
+at testCase.LoginDataTest.accountLogintest(LoginDataTest.java:51)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountLogintest -->
+        <test-method signature="accountLogintest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginDataTest@3d34d211]" started-at="2026-02-27T22:50:32 IST" name="accountLogintest" data-provider="dp" finished-at="2026-02-27T22:51:36 IST" duration-ms="64071" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[laks@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[An exception occurred: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.linkText: Login' (tried for 50 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: An exception occurred: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.linkText: Login' (tried for 50 second(s) with 500 milliseconds interval)
+at org.testng.Assert.fail(Assert.java:111)
+at testCase.LoginDataTest.accountLogintest(LoginDataTest.java:51)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountLogintest -->
+        <test-method signature="accountLogintest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginDataTest@3d34d211]" started-at="2026-02-27T22:51:37 IST" name="accountLogintest" data-provider="dp" finished-at="2026-02-27T22:52:40 IST" duration-ms="63465" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[An exception occurred: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.linkText: Login' (tried for 50 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: An exception occurred: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.linkText: Login' (tried for 50 second(s) with 500 milliseconds interval)
+at org.testng.Assert.fail(Assert.java:111)
+at testCase.LoginDataTest.accountLogintest(LoginDataTest.java:51)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountLogintest -->
+        <test-method signature="accountLogintest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginDataTest@3d34d211]" started-at="2026-02-27T22:52:40 IST" name="accountLogintest" data-provider="dp" finished-at="2026-02-27T22:53:44 IST" duration-ms="64061" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mpriyanka.18a@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1@open]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[An exception occurred: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.linkText: Login' (tried for 50 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: An exception occurred: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.linkText: Login' (tried for 50 second(s) with 500 milliseconds interval)
+at org.testng.Assert.fail(Assert.java:111)
+at testCase.LoginDataTest.accountLogintest(LoginDataTest.java:51)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountLogintest -->
+        <test-method is-config="true" signature="setout()[pri:0, instance:testCase.LoginDataTest@3d34d211]" started-at="2026-02-27T22:53:44 IST" name="setout" finished-at="2026-02-27T22:53:45 IST" duration-ms="842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setout -->
+      </class> <!-- testCase.LoginDataTest -->
+      <class name="testCase.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCase.LoginTest@7dc0f706]" started-at="2026-02-27T22:53:45 IST" name="setup" finished-at="2026-02-27T22:53:57 IST" duration-ms="12185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="accountLogintest()[pri:0, instance:testCase.LoginTest@7dc0f706]" started-at="2026-02-27T22:53:57 IST" name="accountLogintest" finished-at="2026-02-27T22:53:59 IST" duration-ms="1823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountLogintest -->
+        <test-method is-config="true" signature="setout()[pri:0, instance:testCase.LoginTest@7dc0f706]" started-at="2026-02-27T22:53:59 IST" name="setout" finished-at="2026-02-27T22:54:00 IST" duration-ms="893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setout -->
+      </class> <!-- testCase.LoginTest -->
+    </test> <!-- Linux-FireFox -->
+  </suite> <!-- Suite -->
+</testng-results>
